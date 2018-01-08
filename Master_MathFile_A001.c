@@ -18,6 +18,16 @@ long double func_A002_sub(double a, double b)
    return result;  
 }
 
+
+////////// Function-A003 /////////////////////////
+long double func_A002_mul(double a, double b) 
+{      
+    long double result;       
+    result = (long double) (a) *  (long double) (b);    
+    return result;  
+}
+
+
 //////////////////////////////////////////////////
 //||||||||||||||||||||||||||||||||||||||||||||||
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

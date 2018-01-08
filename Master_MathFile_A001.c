@@ -27,6 +27,14 @@ long double func_A002_mul(double a, double b)
     return result;  
 }
 
+////////// Function-A004 /////////////////////////
+long double func_A004_div(double a, double b) 
+{          
+    long double result;           
+    result = (long double) (a) /  (long double) (b);        
+    return result;  
+}
+
 
 //////////////////////////////////////////////////
 //||||||||||||||||||||||||||||||||||||||||||||||

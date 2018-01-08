@@ -36,6 +36,25 @@ long double func_A004_div(double a, double b)
 }
 
 
+
+////////// Acc Math Func - U001 /////////////////////////
+long long Facto_N (unsigned char n) 
+{   
+    long long FactoN = 1;      
+    if(n <= 0) //1> Stopping condition check;   
+    {     
+        return (FactoN); //Return on stopping condition;   
+    }
+    else   
+    {   
+        FactoN = n * FactoN(n-1); //2> Recurssive call;   
+    }    
+    return (FactoN) //Final return;
+}  
+
 //////////////////////////////////////////////////
 //||||||||||||||||||||||||||||||||||||||||||||||
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
